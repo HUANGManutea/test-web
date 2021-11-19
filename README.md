@@ -7,11 +7,6 @@ POC de caching en Go en utilisant go-redis/cache, cette lib permet d'avoir un ca
 - installer golang
 - installer podman
 
-installer minio
-```
-podman run -p 9000:9000 -p 9001:9001  quay.io/minio/minio server /data --console-address ":9001"
-```
-
 installer redis
 ```
 podman run -d --name redis_server -p 6379:6379 docker.io/redis
